@@ -1,4 +1,4 @@
-# 삽입정렬
+# 삽입 정렬
 def insertion_sort(lst):
     for i in range(1, len(lst)):
         for j in range(i, 0, -1):  # i부터 1까지
