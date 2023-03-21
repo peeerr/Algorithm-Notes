@@ -1,9 +1,9 @@
 # 선택 정렬
 def selection_sort(lst):
     for i in range(len(lst)):
-        min = i
+        minimum = i
         for j in range(i+1, len(lst)):
-            if lst[j] < lst[min]:
-                min = j
+            if lst[j] < lst[minimum]:
+                minimum = j
 
-        lst[i], lst[min] = lst[min], lst[i]
+        lst[i], lst[minimum] = lst[minimum], lst[i]
