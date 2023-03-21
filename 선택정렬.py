@@ -1,3 +1,4 @@
+# 선택정렬
 def selection_sort(lst):
     for i in range(len(lst)):
         min = i
