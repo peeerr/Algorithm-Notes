@@ -1,3 +1,4 @@
+# 계수 정렬
 def counting_sort(lst):
     # lst의 가장 큰 값을 크기로 하는 배열 생성
     temp = [ 0 for _ in range(max(lst) + 1) ]
