@@ -2,19 +2,19 @@
 자주 쓰이는 알고리즘을 정리하는 노트 <br><br>
 
 # 📌 정렬
-### 선택 정렬
+### [선택 정렬](https://github.com/peeerr/Algorithm-Notes/blob/main/%EC%A0%95%EB%A0%AC/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC.py)
 최선의 경우 O(N^2)<br>
 최악의 경우 O(N^2)
 
-## 삽입 정렬
+## [삽입 정렬](https://github.com/peeerr/Algorithm-Notes/blob/main/%EC%A0%95%EB%A0%AC/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC.py)
 최선의 경우 O(N) -> **이미 데이터가 정렬되어 있는 경우**<br>
 최악의 경우 O(N^2)
 
-## 퀵 정렬 (호어 분할 방식)
+## [퀵 정렬](https://github.com/peeerr/Algorithm-Notes/blob/main/%EC%A0%95%EB%A0%AC/%ED%80%B5%20%EC%A0%95%EB%A0%AC.py) (호어 분할 방식)
 평균의 경우 O(NlogN)<br>
 최악의 경우 O(N^2) -> **이미 데이터가 정렬되어 있는 경우**
 
-## 계수 정렬
+## [계수 정렬](https://github.com/peeerr/Algorithm-Notes/blob/main/%EC%A0%95%EB%A0%AC/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC.py)
 원소의 개수가 N, 원소 중 최댓값을 K라 할 때, 시간 복잡도 O(N + K)<br>
 -> 적절한 인덱스에 +1 하는 과정에서 N, 출력하는 과정에서 최댓값까지 반복하므로 K<br>
 **단, 리스트의 크기를 이용하는 만큼 항상 사용할 순 없다.<br>
