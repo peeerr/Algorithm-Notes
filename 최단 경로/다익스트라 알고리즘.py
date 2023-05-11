@@ -11,7 +11,7 @@ def dijkstra(start):
     while q:
         dist, node = heapq.heappop(q)
 
-        # 기존 거리가 더 짧으면 패스
+        # 기존의 거리가 더 짧으면 패스
         if distance[node] < dist:
             continue
 
